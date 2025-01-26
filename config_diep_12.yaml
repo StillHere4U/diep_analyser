@@ -1,0 +1,16 @@
+# Path to data
+path: "ScalarVolume_12/"
+
+# crop image
+xmin: 237
+xmax: 262
+ymin: 150
+ymax: 108
+
+# select frames
+first_frame: 287
+last_frame: 298
+
+# select color threshold
+threshold: -50
+
