@@ -7,8 +7,8 @@ from pydicom.data import get_testdata_file
 from os import listdir
 from os.path import isfile, join
 
-path1 = "ScalarVolume_14/"
-path2 = "ScalarVolume_12/"
+path1 = "dicom/dicom2/ScalarVolume_15/"
+path2 = "dicom/dicom2/ScalarVolume_14/"
 
 onlyfiles1 = [f for f in listdir(path1) if isfile(join(path1, f))]
 onlyfiles1.sort()
@@ -32,9 +32,9 @@ for file in onlyfiles2 :
 print(len(frames1))
 print(len(frames2))
 ratio = len(frames2) / len(frames1)
-ani1 = animation.ArtistAnimation(fig1, frames1, interval = 50 , blit = True, repeat_delay=1000)
+ani1 = animation.ArtistAnimation(fig1, frames1, interval = 10 , blit = True, repeat_delay=1000)
 
-ani2 = animation.ArtistAnimation(fig2, frames2, interval = 20 / ratio, blit = True, repeat_delay=1000)
+ani2 = animation.ArtistAnimation(fig2, frames2, interval = 10 / ratio, blit = True, repeat_delay=1000)
 
 plt.show()
 

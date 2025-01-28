@@ -1,0 +1,16 @@
+# Path to data
+path: "dicom/dicom2/ScalarVolume_15/"
+
+# crop image
+xmin: 255
+xmax: 281
+ymin: 189
+ymax: 153
+
+# select frames
+first_frame: 285
+last_frame: 304
+
+# select color threshold
+threshold: -50
+

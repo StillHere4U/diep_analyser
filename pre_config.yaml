@@ -1,10 +1,12 @@
 # Path to data
-path: "ScalarVolume_12/"
+path: "dicom/dicom2/ScalarVolume_14/"
+
+
 
 # crop image
-xmin: 237
+xmin: 240
 xmax: 262
-ymin: 150
+ymin: 145
 ymax: 108
 
 # select frames
